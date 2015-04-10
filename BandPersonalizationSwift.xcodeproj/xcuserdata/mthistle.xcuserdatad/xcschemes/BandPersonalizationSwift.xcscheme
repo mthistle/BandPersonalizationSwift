@@ -20,20 +20,6 @@
                ReferencedContainer = "container:BandPersonalizationSwift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "93C359F01AD735F900C8E2F4"
-               BuildableName = "BandPersonalizationSwiftTests.xctest"
-               BlueprintName = "BandPersonalizationSwiftTests"
-               ReferencedContainer = "container:BandPersonalizationSwift.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -42,26 +28,7 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "93C359F01AD735F900C8E2F4"
-               BuildableName = "BandPersonalizationSwiftTests.xctest"
-               BlueprintName = "BandPersonalizationSwiftTests"
-               ReferencedContainer = "container:BandPersonalizationSwift.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "93C359DB1AD735F900C8E2F4"
-            BuildableName = "BandPersonalizationSwift.app"
-            BlueprintName = "BandPersonalizationSwift"
-            ReferencedContainer = "container:BandPersonalizationSwift.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -72,8 +39,7 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "93C359DB1AD735F900C8E2F4"
@@ -81,7 +47,7 @@
             BlueprintName = "BandPersonalizationSwift"
             ReferencedContainer = "container:BandPersonalizationSwift.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -91,8 +57,7 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "93C359DB1AD735F900C8E2F4"
@@ -100,7 +65,7 @@
             BlueprintName = "BandPersonalizationSwift"
             ReferencedContainer = "container:BandPersonalizationSwift.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
