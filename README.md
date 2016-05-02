@@ -1,3 +1,5 @@
+# THIS IS An OLD SAMPLE FOR Swift 1.2 and Xcode 6.3 Beta - You can use this as a reference but the code is out of date. For Swift 2 samples, see: https://github.com/mthistle/MicrosoftBandKit_iOS-Swift2/
+
 # BandPersonalizationSwift
 Swift version of the Microsoft Band Kit sample app BandPersonalization. This sample will change your Band's Me Tile to a custom image. To reset the image back to the default images use the [Microsoft Health App](https://itunes.apple.com/us/app/microsoft-health/id912580285?mt=8), available in the AppStore.
 
